@@ -1,0 +1,67 @@
+
+body{
+    background-color:GoldenRod;
+  }
+  html{
+      background-color: cadetblue;
+  }
+  .nav{
+    background-color:LightSlateGray;
+    overflow:hidden;
+   
+  }
+  .nav a{
+    float:left;
+    
+    color:#f2f2f2;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+  }
+  a{
+    font-family: "Audiowide", sans-serif;
+  }
+  .nav a:hover{
+    background-color:PaleVioletRed;
+    color:black;
+  }
+  .rollar{
+      margin-left: auto;
+    margin-right: auto;
+     animation:slider 12s infinite linear;
+     width:auto ;
+     height:330px ;
+    box-shadow: 1px 2px 10px 5px white;
+   
+  }
+  @keyframes slider{
+    0%{background-image: url('https://images.unsplash.com/photo-1594616647927-2382fe456b07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80'); }
+    
+    20%{background-image:url('https://images.unsplash.com/photo-1528834342297-fdefb9a5a92b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eWVsbG93JTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80'); }
+    
+    50%{background-image:url('https://c0.wallpaperflare.com/preview/806/942/565/bloom-blossom-delicate-desktop-backgrounds.jpg'); }
+    75%{
+      background-image:url('https://w0.peakpx.com/wallpaper/878/445/HD-wallpaper-butterfly-on-flowers-yellow-flowers-sky-butterfly-macro.jpg');
+    }
+    100%{background-image: url('https://images.unsplash.com/photo-1497531551184-06b252e1bee1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFsbG9vbnxlbnwwfHwwfHw%3D&w=1000&q=80');}
+  }
+  .grid-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid burlywood;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: transform .2s;}
+  .grid-item:hover{
+      background-color:darkcyan;
+      transform: scale(1.2); 
+  }
+.bgimage{
+    background-image: url('https://www.solidbackgrounds.com/images/1920x1080/1920x1080-cadet-blue-solid-color-background.jpg');
+}
